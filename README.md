@@ -54,3 +54,5 @@ Set of Windows 11 Wallpapers in multiple colors and light and dark mode. ([Downl
 - ![#525E54](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=525E54) Sage (#525E54)
 - ![#847545](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=847545) Camouflage Desert (#847545)
 - ![#7E735F](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=7E735F) Camouflage (#7E735F)
+
+## Windows 11 KDE Design is based on:
