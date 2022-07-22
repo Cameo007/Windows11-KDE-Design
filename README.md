@@ -1,5 +1,5 @@
 
-# Windows11-KDE-Design
+# Windows 11 KDE-Design
 Repository for my Windows 11 like modern design for KDE Plasma
 
 ## Windows 11 Wallpaper
