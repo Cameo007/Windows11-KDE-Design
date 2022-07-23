@@ -1,4 +1,5 @@
 
+
 # Windows 11 KDE-Design
 Repository for my Windows 11 like modern design for KDE Plasma
 
@@ -56,8 +57,15 @@ Set of Windows 11 Wallpapers in multiple colors and light and dark mode. ([Downl
 - ![#7E735F](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=7E735F) Camouflage (#7E735F)
 
 ## Install
-1. `git clone `
-2. cd 
+1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
+2. `cd Windows11-KDE-Design`
+3. `./install.sh` (Installing global design)
+4. `sudo sddm/install.sh` (Installing SDDM theme)
+5. `sudo wallpapers/install.sh -u me|all -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
+   `-u`: Use wallpaper only for me or for the other users on the machine also
+   `-m`: Use light or dark mode
+   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+   
 
 ## Windows 11 KDE-Design is based on:
 - [Windows 11 Cursors Concept v2](https://www.pling.com/p/1829518)
