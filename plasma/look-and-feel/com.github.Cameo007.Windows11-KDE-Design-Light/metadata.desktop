@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Windows 11 KDE-Design Light
+Comment=A modern Windows 11 like light design for KDE Plasma
+Encoding=UTF-8
+Keywords=Windows;11;KDE;Plasma;Modern;Light;
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Cameo007
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=pascal.1.dietrich@hotmail.com
+X-KDE-PluginInfo-License=GPL3.0
+X-KDE-PluginInfo-Name=com.github.Cameo007.Windows11-KDE-Design-Light
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/Cameo007/Windows11-KDE-Design
+X-KDE-fallbackPackage=org.kde.breeze.desktop
+X-Plasma-MainScript=defaults
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1563784,kns://plasma-themes.knsrc/api.kde-look.org/1563794,kns://aurorae.knsrc/api.kde-look.org/1562219,kns://icons.knsrc/api.kde-look.org/1546069,kns://wallpaper.knsrc/api.kde-look.org/1563780,kns://sddmtheme.knsrc/api.kde-look.org/1563791,kns://xcursor.knsrc/api.kde-look.org/1829518
+X-Plasma-MainScript=defaults

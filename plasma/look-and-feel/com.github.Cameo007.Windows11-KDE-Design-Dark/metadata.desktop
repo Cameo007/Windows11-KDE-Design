@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Windows 11 KDE-Design Dark
+Comment=A modern Windows 11 like dark design for KDE Plasma
+Encoding=UTF-8
+Keywords=Windows;11;KDE;Plasma;Modern;Dark;
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Cameo007
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=pascal.1.dietrich@hotmail.com
+X-KDE-PluginInfo-License=GPL3.0
+X-KDE-PluginInfo-Name=com.github.Cameo007.Windows11-KDE-Design-Dark
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/Cameo007/Windows11-KDE-Design
+X-KDE-fallbackPackage=org.kde.breeze.desktop
+X-Plasma-MainScript=defaults
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1554625,kns://plasma-themes.knsrc/api.kde-look.org/1554634,kns://aurorae.knsrc/api.kde-look.org/1554624,kns://icons.knsrc/api.kde-look.org/1546069,kns://wallpaper.knsrc/api.kde-look.org/1554620,kns://sddmtheme.knsrc/api.kde-look.org/1554630,kns://xcursor.knsrc/api.kde-look.org/1829518
+X-Plasma-MainScript=defaults
