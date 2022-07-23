@@ -55,6 +55,10 @@ Set of Windows 11 Wallpapers in multiple colors and light and dark mode. ([Downl
 - ![#847545](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=847545) Camouflage Desert (#847545)
 - ![#7E735F](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=7E735F) Camouflage (#7E735F)
 
+## Install
+1. `git clone `
+2. cd 
+
 ## Windows 11 KDE-Design is based on:
 - [Windows 11 Cursors Concept v2](https://www.pling.com/p/1829518)
 - [Win11OS-light Color Theme](https://www.pling.com/p/1563784)
