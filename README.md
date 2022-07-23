@@ -60,8 +60,9 @@ Set of Windows 11 Wallpapers in multiple colors and light and dark mode. ([Downl
 ## Install
 1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
 2. `cd Windows11-KDE-Design`
-3. `./install.sh` (Installing global design)
-4. `sudo sddm/install.sh` (Installing SDDM theme)
+3. `./install.sh` (Installs global design)
+4. `sudo sddm/install.sh -m light|dark` (Installs SDDM theme)
+	
 5. `wallpapers/install-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
    `-m`: Use light or dark mode
    `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
