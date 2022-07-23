@@ -1,13 +1,38 @@
 
-
-
 # Windows 11 KDE-Design
 Repository for my Windows 11 like modern design for KDE Plasma
 
-## Windows 11 Wallpaper
-Set of Windows 11 Wallpapers in multiple colors and light and dark mode. ([Download](https://www.markdownguide.org/cheat-sheet/), [Original source](https://www.reddit.com/r/Windows11/comments/ochvir/windows_11_default_wallpaper_in_all_colors_light/))
+## Install global theme
+1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
+2. `cd Windows11-KDE-Design`
+3. `./install.sh` (Installs global design)
+4. `sudo sddm/install.sh -m light|dark` (Installs SDDM theme)
+	
+5. `wallpapers/install-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
+   `-m`: Use light or dark mode
+   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+6. `wallpapers/install-sddm-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
+   `-m`: Use light or dark mode
+   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+   
+## Apply global theme
+1. Open system settings & navigate to "Appearance"
+2. Choose the following design parameters:
+	- Application style: Breeze
+	- Plasma style: Willow Spectrum
+	- Colors: Win11OSLight / Win11OSDark & choose an accent color
+	- Window decoration: Willow Light Blur (Or if you want Win11OS-light / Win11OS-dark)
+	- Icons: Win11
+	- Cursor: WindowsConcept11_Light / WindowsConcept11_Dark
+	- Splashscreen: Windows 11 KDE-Design Light / Windows 11 KDE-Design Dark
 
-## Windows 11 Accent Colors
+
+## Customization
+
+### Windows 11 Wallpapers
+Set of Windows 11 Wallpapers in multiple colors and in light and dark mode. ([Download](https://www.markdownguide.org/cheat-sheet/), [Original source](https://www.reddit.com/r/Windows11/comments/ochvir/windows_11_default_wallpaper_in_all_colors_light/))
+
+### Windows 11 Accent Colors
 - ![#FFB900](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=FFB900) Yellow Gold (#FFB900)
 - ![#FF8C00](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=FF8C00) Gold (#FF8C00)
 - ![#F7630C](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=F7630C) Orange Bright (#F7630C)
@@ -57,19 +82,6 @@ Set of Windows 11 Wallpapers in multiple colors and light and dark mode. ([Downl
 - ![#847545](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=847545) Camouflage Desert (#847545)
 - ![#7E735F](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=7E735F) Camouflage (#7E735F)
 
-## Install
-1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
-2. `cd Windows11-KDE-Design`
-3. `./install.sh` (Installs global design)
-4. `sudo sddm/install.sh -m light|dark` (Installs SDDM theme)
-	
-5. `wallpapers/install-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
-   `-m`: Use light or dark mode
-   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-6. `wallpapers/install-sddm-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
-   `-m`: Use light or dark mode
-   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-   
 
 ## Windows 11 KDE-Design is based on:
 - [Windows 11 Cursors Concept v2](https://www.pling.com/p/1829518)
