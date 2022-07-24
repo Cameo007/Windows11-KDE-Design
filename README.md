@@ -4,7 +4,7 @@ Repository for my Windows 11 like modern design for KDE Plasma
 ## Install global theme
 1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
 2. `cd Windows11-KDE-Design`
-3. Make `install.sh`, `sddm/install.sh`, `wallpapers/install-wallpaper.sh`, `wallpapers/install-sddm-wallpaper.sh` & `wallpapers/install-splash-wallpaper.sh`executable
+3. `sudo chmod u+x install.sh sddm/install.sh wallpapers/install-wallpaper.sh wallpapers/install-sddm-wallpaper.sh wallpapers/install-splash-wallpaper.sh` (Make bash scripts executable)
 4. `./install.sh` (Installs global design)
 5. `sudo sddm/install.sh` (Installs SDDM theme)
    
