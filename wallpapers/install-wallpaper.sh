@@ -1,11 +1,11 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd $(dirname $0) && pwd)"
+
 mode="";
 color="";
 
-ROOT_UID=0
-# Destination directory
-if [ "$UID" == "$ROOT_UID" ]
+if [ "$UID" == "0" ]
 then
   WALLPAPER_DIR="/usr/share/wallpapers"
 else
@@ -26,10 +26,10 @@ then
     exit 1
 fi
 
-if ! [ -f "./$mode/$color.jpg" ]
+if ! [ -f "$SCRIPT_DIR/$mode/$color.jpg" ]
 then
     echo "Wallpaper \"$color\" not found"
     exit 1
 fi
 
-cp -r ./$mode/$color.jpg $WALLPAPER_DIR/Win11OS-$mode/contents/images/3840x2400.jpg
+cp -r $SCRIPT_DIR/$mode/$color.jpg $WALLPAPER_DIR/Win11OS-$mode/contents/images/3840x2400.jpg

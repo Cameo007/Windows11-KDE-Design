@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd $(dirname $0) && pwd)"
+
 mode="";
 color="";
 
@@ -22,10 +24,10 @@ then
     exit 1
 fi
 
-if ! [ -f "./$mode/$color.jpg" ]
+if ! [ -f "$SCRIPT_DIR/$mode/$color.jpg" ]
 then
     echo "Wallpaper \"$color\" not found"
     exit 1
 fi
 
-cp -r ./$mode/$color.jpg /usr/share/sddm/themes/Win11OS-$mode/background.jpg
+cp -r $SCRIPT_DIR/$mode/$color.jpg /usr/share/sddm/themes/Win11OS-$mode/background.jpg

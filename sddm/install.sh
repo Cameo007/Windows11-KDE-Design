@@ -1,11 +1,16 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd $(dirname $0) && pwd)"
+
 mode="";
 
 if [ "$EUID" -ne 0 ]
 then
   exec sudo "$0" "$@"
 fi
+
+chmod u+x $SCRIPT_DIR/light/install.sh
+chmod u+x $SCRIPT_DIR/dark/install.sh
 
 while getopts m:c: flag
 do
@@ -16,10 +21,10 @@ done
 
 if [ "$mode" == "light" ]
 then
-  ./light/install.sh
+  $SCRIPT_DIR/light/install.sh
 elif [ "$mode" == "dark" ]
 then
-  ./dark/install.sh
+  $SCRIPT_DIR/dark/install.sh
 else
     echo "Please specify the mode (light/dark)"
 fi
