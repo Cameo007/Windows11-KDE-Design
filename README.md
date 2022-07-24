@@ -19,13 +19,12 @@ Repository for my Windows 11 like modern design for KDE Plasma
 ## Customization
 
 ### Windows 11 Wallpapers
--  `wallpapers/install-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes wallpaper)<br>
+-  `wallpapers/change-wallpaper.sh -c Amber|Blue|Chartreuse|...` (Changes wallpaper)<br>
+   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+- `sudo wallpapers/change-sddm-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes SDDM wallpaper)<br>
    `-m`: Use light or dark mode<br>
    `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-- `sudo wallpapers/install-sddm-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes SDDM wallpaper)<br>
-   `-m`: Use light or dark mode<br>
-   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-- `wallpapers/install-splash-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes splashscreen wallpaper)<br>
+- `wallpapers/change-splash-wallpaper.sh -c Amber|Blue|Chartreuse|...` (Changes splashscreen wallpaper)<br>
    `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
 
 ### Windows 11 Accent Colors
