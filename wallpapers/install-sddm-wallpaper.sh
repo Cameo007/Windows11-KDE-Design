@@ -1,11 +1,11 @@
 #!/bin/bash
 
-SCRIPT_DIR="$(cd $(dirname $0) && pwd)"
+SRC_DIR=$(cd $(dirname $0) && pwd)
 
 mode="";
 color="";
 
-if [ "$EUID" -ne 0 ]
+if [ "$UID" != 0 ]
 then
   exec sudo "$0" "$@"
 fi
@@ -24,10 +24,10 @@ then
     exit 1
 fi
 
-if ! [ -f "$SCRIPT_DIR/$mode/$color.jpg" ]
+if ! [ -f "$SRC_DIR/$mode/$color.jpg" ]
 then
     echo "Wallpaper \"$color\" not found"
     exit 1
 fi
 
-cp -r $SCRIPT_DIR/$mode/$color.jpg /usr/share/sddm/themes/Win11OS-$mode/background.jpg
+cp -r $SRC_DIR/$mode/$color.jpg /usr/share/sddm/themes/Win11OS-$mode/background.jpg

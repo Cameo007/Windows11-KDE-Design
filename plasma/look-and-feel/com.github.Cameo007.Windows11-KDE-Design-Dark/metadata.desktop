@@ -17,5 +17,5 @@ X-KDE-PluginInfo-Version=1.0
 X-KDE-PluginInfo-Website=https://github.com/Cameo007/Windows11-KDE-Design
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1554625,kns://plasma-themes.knsrc/api.kde-look.org/1554634,kns://aurorae.knsrc/api.kde-look.org/1554624,kns://icons.knsrc/api.kde-look.org/1546069,kns://wallpaper.knsrc/api.kde-look.org/1554620,kns://sddmtheme.knsrc/api.kde-look.org/1554630,kns://xcursor.knsrc/api.kde-look.org/1829518
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1554625,kns://plasma-themes.knsrc/api.kde-look.org/1554634,kns://aurorae.knsrc/api.kde-look.org/1563375,kns://icons.knsrc/api.kde-look.org/1546069,kns://wallpaper.knsrc/api.kde-look.org/1554620,kns://sddmtheme.knsrc/api.kde-look.org/1554630,kns://xcursor.knsrc/api.kde-look.org/1829518
 X-Plasma-MainScript=defaults

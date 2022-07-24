@@ -1,8 +1,7 @@
 #!/bin/bash
 
-ROOT_UID=0
 THEME_DIR="/usr/share/sddm/themes"
-REO_DIR="$(cd $(dirname $0) && pwd)"
+SRC_DIR=$(cd $(dirname $0) && pwd)
 
 MAX_DELAY=20                                  # max delay for user to enter root password
 
@@ -36,9 +35,9 @@ prompt () {
 }
 
 # Checking for root access and proceed if it is present
-if [ "$UID" -eq "$ROOT_UID" ]; then
-  prompt -i "\n * Install Win11OS-dark in ${THEME_DIR}... "
-  cp -r "${REO_DIR}/Win11OS-dark" "${THEME_DIR}"
+if [ "$UID" = "0" ]; then
+  prompt -i "\n * Installing Win11OS-dark in ${THEME_DIR}... "
+  cp -r "${SRC_DIR}/Win11OS-dark" "${THEME_DIR}"
   # Success message
   prompt -s "\n * All done!"
 else

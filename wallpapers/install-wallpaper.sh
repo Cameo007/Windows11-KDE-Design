@@ -1,11 +1,11 @@
 #!/bin/bash
 
-SCRIPT_DIR="$(cd $(dirname $0) && pwd)"
+SRC_DIR=$(cd $(dirname $0) && pwd)
 
 mode="";
 color="";
 
-if [ "$UID" == "0" ]
+if [ "$UID" = "0" ]
 then
   WALLPAPER_DIR="/usr/share/wallpapers"
 else
@@ -32,4 +32,4 @@ then
     exit 1
 fi
 
-cp -r $SCRIPT_DIR/$mode/$color.jpg $WALLPAPER_DIR/Win11OS-$mode/contents/images/3840x2400.jpg
+cp -r $SRC_DIR/$mode/$color.jpg $WALLPAPER_DIR/Win11OS-$mode/contents/images/3840x2400.jpg
