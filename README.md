@@ -1,36 +1,32 @@
-
 # Windows 11 KDE-Design
 Repository for my Windows 11 like modern design for KDE Plasma
 
 ## Install global theme
 1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
 2. `cd Windows11-KDE-Design`
-3. `./install.sh` (Installs global design)
-4. `sudo sddm/install.sh -m light|dark` (Installs SDDM theme)
-	
-5. `wallpapers/install-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
-   `-m`: Use light or dark mode
-   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-6. `wallpapers/install-sddm-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changing wallpaper)
-   `-m`: Use light or dark mode
-   `-c`: Specify Color (List: [light](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) | [dark](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+3. Make `install.sh`, `sddm/install.sh`, `wallpapers/install-wallpaper.sh`, `wallpapers/install-sddm-wallpaper.sh` & `wallpapers/install-splash-wallpaper.sh`executable
+4. `./install.sh` (Installs global design)
+5. `sudo sddm/install.sh` (Installs SDDM theme)
    
 ## Apply global theme
 1. Open system settings & navigate to "Appearance"
-2. Choose the following design parameters:
-	- Application style: Breeze
-	- Plasma style: Willow Spectrum
-	- Colors: Win11OSLight / Win11OSDark & choose an accent color
-	- Window decoration: Willow Light Blur (Or if you want Win11OS-light / Win11OS-dark)
-	- Icons: Win11
-	- Cursor: WindowsConcept11_Light / WindowsConcept11_Dark
-	- Splashscreen: Windows 11 KDE-Design Light / Windows 11 KDE-Design Dark
+2. Apply Windows 11 KDE-Design Light / Dark as global theme
 
+## Change SDDM theme
+1. Open system settings & search for "SDDM"
+2. Select your favorite SDDM theme (Windows 11 KDE-Design Light / Dark)
 
 ## Customization
 
 ### Windows 11 Wallpapers
-Set of Windows 11 Wallpapers in multiple colors and in light and dark mode. ([Download](https://www.markdownguide.org/cheat-sheet/), [Original source](https://www.reddit.com/r/Windows11/comments/ochvir/windows_11_default_wallpaper_in_all_colors_light/))
+-  `wallpapers/install-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes wallpaper)<br>
+   `-m`: Use light or dark mode<br>
+   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+- `sudo wallpapers/install-sddm-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes SDDM wallpaper)<br>
+   `-m`: Use light or dark mode<br>
+   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+- `wallpapers/install-splash-wallpaper.sh -m light|dark -c Amber|Blue|Chartreuse|...` (Changes splashscreen wallpaper)<br>
+   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
 
 ### Windows 11 Accent Colors
 - ![#FFB900](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=FFB900) Yellow Gold (#FFB900)
@@ -90,3 +86,5 @@ Set of Windows 11 Wallpapers in multiple colors and in light and dark mode. ([Do
 - [Willow Light Blur](https://www.pling.com/p/1562219)
 - [Willow Spectrum](https://www.pling.com/p/1757048)
 - [Win11OS-light Sddm Theme](https://www.pling.com/p/1563791)
+
+- Set of Windows 11 Wallpapers in multiple colors and in light and dark mode. ([Download](https://www.markdownguide.org/cheat-sheet/), [Original source](https://www.reddit.com/r/Windows11/comments/ochvir/windows_11_default_wallpaper_in_all_colors_light/))
