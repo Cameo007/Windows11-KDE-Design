@@ -2,7 +2,6 @@
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 
-mode="";
 color="";
 
 if [ "$UID" = "0" ]
@@ -19,7 +18,7 @@ do
     esac
 done
 
-if ! [ -f "$SCRIPT_DIR/light/$color.jpg" ]
+if ! [ -f "$SRC_DIR/light/$color.jpg" ]
 then
     echo "Wallpaper \"$color\" not found"
     exit 1
