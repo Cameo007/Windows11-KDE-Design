@@ -13,7 +13,7 @@ Repository for my Windows 11 like modern design for KDE Plasma
 2. Apply "Windows 11 KDE-Design Light" / "Windows 11 KDE-Design Dark" as global theme
 
 ## Set SDDM theme
-1. Open system settings & search for "SDDM"
+1. Open system settings, search for "SDDM" & and select the first option
 2. Select your favorite SDDM theme ("Windows 11 KDE-Design Light" / "Windows 11 KDE-Design Dark")
 3. Open system settings, search for "Lock" & and select the first option
 4. Click on "Setup" (at "Appearance") & select "Win11OS-light" / "Win11OS-dark"
