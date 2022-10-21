@@ -44,7 +44,8 @@ install() {
   cp -r ${SRC_DIR}/Kvantum/*                                                         ${KVANTUM_DIR}
   cp -r ${SRC_DIR}/plasma/desktoptheme/*                                             ${PLASMA_DIR}
   cp -r ${SRC_DIR}/plasma/look-and-feel/*                                            ${LOOKFEEL_DIR}
-  cp -r ${SRC_DIR}/wallpaper/*                                                       ${WALLPAPER_DIR}
+  cp -r ${SRC_DIR}/wallpaper/Win11OS-light                                           ${WALLPAPER_DIR}
+  cp -r ${SRC_DIR}/wallpaper/Win11OS-dark                                            ${WALLPAPER_DIR}
   cp -r ${SRC_DIR}/icons/*                                                           ${ICONS_DIR}
   cp -r ${SRC_DIR}/cursors/*                                                         ${CURSORS_DIR}
 }
