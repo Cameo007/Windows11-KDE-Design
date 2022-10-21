@@ -4,7 +4,7 @@ Repository for my Windows 11 like modern design for KDE Plasma
 ## Install global theme
 1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
 2. `cd Windows11-KDE-Design`
-3. `sudo chmod u+x install.sh sddm/install.sh wallpapers/install-wallpaper.sh wallpapers/install-sddm-wallpaper.sh wallpapers/install-splash-wallpaper.sh` (Make bash scripts executable)
+3. `chmod u+x install.sh sddm/install.sh wallpapers/change-wallpaper.sh wallpapers/change-sddm-wallpaper.sh` (Make bash scripts executable)
 4. `./install.sh` (Installs global design)
 5. `sudo sddm/install.sh` (Installs SDDM theme)
    
@@ -12,19 +12,23 @@ Repository for my Windows 11 like modern design for KDE Plasma
 1. Open system settings & navigate to "Appearance"
 2. Apply Windows 11 KDE-Design Light / Dark as global theme
 
-## Change SDDM theme
+## Set SDDM theme
 1. Open system settings & search for "SDDM"
 2. Select your favorite SDDM theme (Windows 11 KDE-Design Light / Dark)
+3. Open system settings, search for "Lock" & and select the first option
+4. Click on "Setup" (at "Appearance") & select "Win11OS-light" / "Win11OS-dark"
+
+### Windows 11 Taskbar icon
+- Install OnzeMenu and add it to your taskbar
+- Set your accent color for the windows logo in the taskbar in the settings (Appearance -> Colors)
+
 
 ## Customization
 
 ### Windows 11 Wallpapers
--  `wallpapers/change-wallpaper.sh -c Amber|Blue|Chartreuse|...` (Changes wallpaper)<br>
+-  `wallpaper/change-wallpaper.sh -c Amber|Blue|Chartreuse|...` (Changes wallpaper for Desktop, Splash screen & SDDM)<br>
    `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-- `sudo wallpapers/change-sddm-wallpaper.sh -c Amber|Blue|Chartreuse|...` (Changes SDDM wallpaper)<br>
-   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
-- `wallpapers/change-splash-wallpaper.sh -c Amber|Blue|Chartreuse|...` (Changes splashscreen wallpaper)<br>
-   `-c`: Specify Color (List: [light wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Light) / [dark wallpapers](https://github.com/Cameo007/Windows11-KDE-Design/tree/main/Windows%2011%20Wallpapers%20-%20All%20colors/Dark))
+
 
 ### Windows 11 Accent Colors
 - ![#FFB900](https://www.thecolorapi.com/id?format=svg&named=false&h=15&w=15&hex=FFB900) Yellow Gold (#FFB900)
