@@ -1,6 +1,8 @@
 # Windows 11 KDE-Design
 Repository for my Windows 11 like modern design for KDE Plasma
 
+# Moved to [Codeberg](https://codeberg.org/Cameo007/Windows11-KDE-Design.git)
+
 ## Install global theme
 1. `git clone https://github.com/Cameo007/Windows11-KDE-Design.git`
 2. `cd Windows11-KDE-Design`
